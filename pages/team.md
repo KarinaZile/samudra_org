@@ -1,6 +1,6 @@
 ---
 layout: kz-page
-title: We are a family business.
+title: Premier Enviro Solutions is a family business.
 permalink: /team/
 teaser: 
 header: no
