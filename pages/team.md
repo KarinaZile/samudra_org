@@ -1,6 +1,6 @@
 ---
 layout: kz-page
-title: Premier Enviro Solutions is a family business.
+title: "Premier Enviro Solutions is a family business:"
 permalink: /team/
 teaser: 
 header: no
@@ -9,7 +9,7 @@ widgets:
   image: walid.jpg
   title: Walid Bahsoon
   location: CEO
-  text: Walid has been helping to run the family cosmetics factory since he was 13. After graduating from City of London Polytechnic, UK in 1982 he took over the family business and expanded it into construction, real estate, foreign exchange, procurements and logistics. He supported international NGOs throughout the eleven year civil war. In 2008 he moved to Malaysia for seven years. There he was the head of a landfill mining project and managed a Waste to Energy plant. After returning to Sierra Leone, Walid founded Premier Enviro Solutions.  
+  text: Walid helped to run the family cosmetics factory in Freetown since he was 13. After graduating from City of London Polytechnic, UK in 1982 he took over the family business and expanded it into construction, real estate, foreign exchange, procurements and logistics. He supported international NGOs throughout the eleven-year civil war. In 2008, he moved to Malaysia where he was the head of a landfill mining project and managed a Waste to Energy plant. After returning to Sierra Leone, Walid founded Premier Enviro Solutions Ltd in 2017. 
   cols: 4
 
 - url: 

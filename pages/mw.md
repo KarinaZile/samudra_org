@@ -1,7 +1,7 @@
 ---
 layout: kz-page
-title: Fecal Sludge
-permalink: /fs/
+title: Medical waste
+permalink: /ms/
 header: no
 
 ---

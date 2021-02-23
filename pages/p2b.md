@@ -7,10 +7,10 @@ image:
     title: p2b_banner.jpg
 widgets:
 - url: 
-  image: p2b_1.jpg
+  image: blocks.jpg
   cols: 4
 - url: 
-  image: p2b_2.jpg
+  image: p2b_products.jpg
   cols: 4
 - url: 
   image: p2b_3.jpg
@@ -18,7 +18,7 @@ widgets:
 
 ---
 
-Some text here...
+The project description will be published soon.
 
 
 <div class="row">
@@ -30,6 +30,3 @@ Some text here...
     {% endif %}
   {% endfor %}
 </div>
-
-
-Some more text here...

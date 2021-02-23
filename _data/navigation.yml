@@ -18,6 +18,10 @@
   url: "/fs/"
   side: left
 
+- title: "Medical waste"
+  url: "/ms/"
+  side: left
+
 - title: "Our team"
   url: "/team/"
   side: left
