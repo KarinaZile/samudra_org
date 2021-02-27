@@ -1,6 +1,7 @@
 ---
 layout: kz-page
 permalink: /index.html
+homepage: true
 teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. We aim to address three major problems in Sierra Leone:"
 header:
   title: ""
