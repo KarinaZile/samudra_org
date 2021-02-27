@@ -1,31 +1,70 @@
 ---
-layout: kz-frontpage
-header: no
-widget1:
-  url: 
-  image: lack_of_housing.jpg
-  title: Lack of affordable housing
-  text: Out of 7.8 million people in Sierra Leone, 92.7% live on less than $5 a day. Lack of affordable housing is a big problem. In Freetown alone, 280,000 more houses are needed by 2028.
-widget2:
-  url: 
-  image: unemployment.jpg
-  title: Widespread youth unemployment
-  text: Sierra Leone is a young country, 62.5% of our population is below 25. While that creates a lot of opportunities, it is also a challenge as currently the unemployment rate amongst youth is alarmingly high.
-widget3:
-  url: 
-  image: plastic_pollution.jpg
-  title: Plastic pollution of the environment
-  text: Every day 88 tonnes of plastic waste is generated in Freetown alone; 23% of that is collected and disposed of in dumpsites, the remaining 68 tonnes/day pollute our environment, blocks waterways and drains causing flooding, or are openly burnt.
+layout: kz-page
 permalink: /index.html
 homepage: true
+teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. We aim to address three major problems in Sierra Leone:"
+header:
+  title: ""
+  image_fullwidth: logo.jpg
+widgets:
+- url: 
+  image: lack_of_housing.jpg
+  title: Lack of affordable housing
+  text: 92.7% of 7.8 million people in Sierra Leone live on less than $5 a day. 60% of Freetown’s population live in slums due to the lack of affordable housing. 280,000 more houses are needed in Freetown by 2028.
+  cols: 4
+
+- url: 
+  image: unemployment.jpg
+  title: Widespread youth unemployment
+  text: 62.5% of Sierra Leone’s population is below 25. While that creates a lot of opportunities, it is also a challenge as nearly 70,000 youths in Freetown are unemployed. 
+  cols: 4
+
+- url: 
+  image: plastic_pollution.jpg
+  title: Plastic pollution of the environment
+  text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 tonnes find their way to the dumpsites, the remaining 70 tonnes/day pollute our environment, block waterways and drains causing flooding, or are openly burnt.
+  cols: 4
+
 ---
 
-<div class="row t30">
-  <figure>
-    <img src="/images/logo.jpg" width="400" itemprop="image" class="center">
-  </figure>
+<div class="row">
+  {% for widget in page.widgets %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
+    {% if loopindex == 0 %}
+  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
+    {% endif %}
+  {% endfor %}
 </div>
 
-<br/>
-Premier Enviro Solutions is a social enterprise based in Freetown. With our work we aim to address three major problems in Sierra Leone:
+<div class="row t30 b20 homepage">
+    <div class="small-12 columns">
+        <p><img width="970" src="/images/first_house.jpg"></p>
+    </div>
+</div>
+
+<div class="row t30">
+    <div class="medium-6 columns">
+        <h2 style="margin-top: 0px;">Plastic 2 Build</h2>
+        <p>The project description will be published soon. <!-- --></p>
+        <div class="row t20 b20">
+            <div class="small-12 text-center columns">
+                <a class="button large radius alert" href="https://youtu.be/mLIn9egKehE">Watch video!</a>
+            </div>
+        </div>
+    </div>
+    <div class="medium-6 columns">
+        <h3>In the media:</h3>
+        <ul class="side-nav">
+            <li><a href="https://insightmag.news/recyling-plastic-waste-to-build-affordable-housing/"> 2020 &middot; The Freetown house built from 10 tonnes of plastic waste</a></li>
+            <li><a href="https://fortomorrow.org/explore-solutions/plastic-2-build-p2-b"> 2020 &middot;  Plastic 2 Build (P2B)</a></li>
+            <li><a href="https://www.sl.undp.org/content/sierraleone/en/home/blog/2019/undp-sierra-leone-officially-launches-it-s-accelerator-lab.html"> 2019 &middot; UNDP Sierra Leone Officially Launches it's Accelerator Lab</a></li>
+            <li><a href="https://thehillsofthechanklybore.com/2019/12/26/at-the-very-least-die-trying/"> 2019 &middot; Saving the World – final progress update</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
 
