@@ -37,16 +37,16 @@ widgets:
   {% endfor %}
 </div>
 
-<div class="row t30 b20">
+<div class="row t10 b20">
     <div class="small-12 columns">
-        <p><img width="970" src="/images/first_house.jpg"></p>
+        <img width="970" src="/images/first_house.jpg">
     </div>
 </div>
 
-<div class="row t30">
+<div class="row t20">
     <div class="medium-6 columns">
         <h2 style="margin-top: 0px;">Plastic 2 Build</h2>
-        <p>The project description will be published soon. <!-- --></p>
+        <p>The project description will be published soon.</p>
         <div class="row t20 b20">
             <div class="small-12 text-center columns">
                 <a class="button large radius alert" href="https://youtu.be/mLIn9egKehE">Watch video!</a>
@@ -54,7 +54,7 @@ widgets:
         </div>
     </div>
     <div class="medium-6 columns">
-        <h3>In the media:</h3>
+        <h2 style="margin-top: 0px;">In the media:</h2>
         <ul class="side-nav">
             <li><a href="https://insightmag.news/recyling-plastic-waste-to-build-affordable-housing/"> 2020 &middot; The Freetown house built from 10 tonnes of plastic waste</a></li>
             <li><a href="https://fortomorrow.org/explore-solutions/plastic-2-build-p2-b"> 2020 &middot;  Plastic 2 Build (P2B)</a></li>
@@ -63,8 +63,3 @@ widgets:
         </ul>
     </div>
 </div>
-
-
-
-
-
