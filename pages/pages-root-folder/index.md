@@ -46,10 +46,10 @@ widgets:
 <div class="row t20">
     <div class="medium-6 columns">
         <h2 style="margin-top: 0px;">Plastic 2 Build</h2>
-        <p>The project description will be published soon.</p>
+        <p>We offer an affordable solution that addresses both the problem of plastic waste and the housing shortage. Through extensive experimentation we've discovered a perfect mix of plastic waste, sand and gravel; and developed an energy efficient, modular and highly scalable technology for producing building materials. This is a way to recover resources from the waste and produce sustainable buildings with positive ecological and social impact. <a href="/p2b/"><strong>{{ site.data.language.read_more }}</strong></a></p>
         <div class="row t20 b20">
             <div class="small-12 text-center columns">
-                <a class="button large radius alert" href="https://youtu.be/mLIn9egKehE">Watch video!</a>
+                <a class="button large radius alert" href="https://youtu.be/mLIn9egKehE">Watch a video!</a>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@ widgets:
         <ul class="side-nav">
             <li><a href="https://insightmag.news/recyling-plastic-waste-to-build-affordable-housing/"> 2020 &middot; The Freetown house built from 10 tonnes of plastic waste</a></li>
             <li><a href="https://fortomorrow.org/explore-solutions/plastic-2-build-p2-b"> 2020 &middot;  Plastic 2 Build (P2B)</a></li>
-            <li><a href="https://www.sl.undp.org/content/sierraleone/en/home/blog/2019/undp-sierra-leone-officially-launches-it-s-accelerator-lab.html"> 2019 &middot; UNDP Sierra Leone Officially Launches it's Accelerator Lab</a></li>
+            <li><a href="https://www.sl.undp.org/content/sierraleone/en/home/blog/2019/undp-sierra-leone-officially-launches-it-s-accelerator-lab.html"> 2019 &middot; UNDP Sierra Leone Officially Launches its Accelerator Lab</a></li>
             <li><a href="https://thehillsofthechanklybore.com/2019/12/26/at-the-very-least-die-trying/"> 2019 &middot; Saving the World – final progress update</a></li>
         </ul>
     </div>

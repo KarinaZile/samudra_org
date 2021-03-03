@@ -51,7 +51,7 @@ Walid was satisfied; this was the start of the Plastic 2 Build project.
 The new mayor of Freetown, elected in August 2018, invited Walid to join the "Sanitation Planning" working group, which along with working groups for urban planning, housing and job creation for youth formed the "Transform Freetown" initiative.
 This allowed Walid to set the direction for waste management and recycling projects in Freetown, including the improvements and extensions to the local dumpsites.
 
-Plastic 2 Build project earned Premier Enviro Solutions an award at the Asia Pacific Housing Innovation Awards in September 2019. 
+Plastic 2 Build project earned Premier Enviro Solutions an award at the [Asia Pacific Housing Innovation Awards in September 2019][1]. 
 This was followed by the People's Choice Award at the launch event of the UNDP Accelerator Lab in October 2019 where innovations in waste management, affordable housing, provision of safe clean drinking water, renewable energy and information technology were showcased.
 Walid's ambition is to scale Plastic 2 Build project to process 25% of plastic waste generated in Freetown. 
 The benefits will be tangible (affordable housing, schools, hospitals and public buildings), intangible (extended lifespans of the dumpsites, unclogged drainage systems, cleaner beaches and less air pollution from open burning of waste), wealth creation and employment opportunities. 
@@ -73,3 +73,5 @@ At Premier Enviro Solutions he is also developing projects for treatment of the 
 Walid is also working closely with the national government to create an enabling environment for all existing and future businesses in the recycling industry.
 Taking the inspiration from the Green Public Procurement scheme introduced in the European Union, Walid envisions a resource-efficient circular economy - an ecosystem where recycling companies can thrive.
 He is working towards introducing incentives and policies that attract investment and encourage the use of products made from local recycled materials.
+
+[1]: https://youtu.be/cLl8sMsxtbU&t=69s
