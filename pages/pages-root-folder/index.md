@@ -2,7 +2,7 @@
 layout: kz-page
 permalink: /index.html
 homepage: true
-teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. We aim to address three major problems in Sierra Leone:"
+teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. Our <b>vision</b> is to become a leader in integrated waste management in Sierra Leone. Our <b>mission</b> is to provide innovative, sustainable and affordable waste management solutions, with a particular focus on the types of waste that pose the most danger to public health. We aim to address three major problems in Sierra Leone:"
 header:
   title: ""
   image_fullwidth: logo.jpg

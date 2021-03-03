@@ -2,14 +2,13 @@
 layout: kz-page
 title: Medical waste
 permalink: /ms/
-header: no
+header:
+  title: ""
+  image_fullwidth: logo.jpg
 
 ---
 
-<div class="row t30">
-  <figure>
-    <img src="/images/logo.jpg" width="400" itemprop="image" class="center">
-  </figure>
-</div>
-
 The project description will be published soon.
+
+
+[1]: http://ecosteryl.com/

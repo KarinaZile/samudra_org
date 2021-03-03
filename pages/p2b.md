@@ -31,13 +31,13 @@ The smoke from the heating vessel is directed through a wet scrubber and a syste
 This hot mix is then molded into solid and hollow building blocks, roofing slabs, pillars, beams and pavement tiles.
 
 <div class="row">
-  {% for widget in page.widgets %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
-    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
-    {% if loopindex == 0 %}
-  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
-    {% endif %}
-  {% endfor %}
+  {% for widget in page.widgets %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
+    {% if loopindex == 0 %}
+  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
+    {% endif %}
+  {% endfor %}
 </div>
 
 We've built a 60m<sup>2</sup> two bedroom house using these building blocks made from local materials, including 10 tonnes of plastic waste.
@@ -64,7 +64,7 @@ We will provide skills training, with a special focus on women, and tricycles fo
 Affordable and resilient housing, schools, hospitals and public buildings will have a direct impact on the 60% of Freetown’s population that currently live in slums due to the lack of affordable housing.
 By supplying building blocks made from 100% local materials we will contribute to increasing the country’s GDP and reducing foreign exchange requirements.
 
-Currently out of 90 tonnes of plastic waste generated in Freetown daily, 20 tonnes find their way to the dumpsites, like the [King Tom][1], while 70 tonnes pollute our environment, block waterways and drains causing flooding, or are openly burnt.
+Currently out of 90 tonnes of plastic waste generated in Freetown daily, 20 tonnes find their way to the dumpsites, like the [Kingtom][1], while 70 tonnes pollute our environment, block waterways and drains causing flooding, or are openly burnt.
 By diverting up to 25% of the plastic from the waste stream, we will contribute to extending lifespans of the dumpsites, unclogging drainage systems and improving air quality for everyone. 
 Creating a market for all types of plastic waste, including the ones that cannot be recycled through conventional methods, will reduce plastic pollution and get us closer to the 40% recycling target set by the “Transform Freetown” initiative.
 The Plastic 2 Build project will result in savings for the local government, as less money will be required to collect plastic waste and to unclog drainage systems.
