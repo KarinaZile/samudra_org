@@ -1,0 +1,29 @@
+- title: "Logo"
+  url: "/"
+  logo: true
+  side: left
+
+- title: "Our values"
+  url: "/values/"
+  side: left
+
+- title: "Our goals"
+  url: "/goals/"
+  side: left
+
+- title: "Our approach"
+  url: "/approach/"
+  side: left
+
+- title: "Contact"
+  url: "/contact/"
+  side: left
+
+# - title: "a"
+#   url: "/a/"
+#   side: left
+#   dropdown:
+#   - title: "a1"
+#     url: "/projects/a1/"
+#   - title: "a2"
+#     url: "/projects/a2/"

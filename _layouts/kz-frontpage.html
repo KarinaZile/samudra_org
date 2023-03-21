@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    {% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+    {% unless page.skip_boilerplate %}
+    {% include _navigation.html %}
+    {% endunless %}
+
+    {% include _masthead.html %}
+    <div class="container">
+        <img src="/images/pattern.jpg" alt="" style="width:100%;">
+    </div> 
+    {{ content }}
+
+    {% unless page.skip_boilerplate %}
+    {% include _footer.html %}
+    {% endunless %}
+
+    {% include _footer_scripts.html %}
+</body>
+</html>

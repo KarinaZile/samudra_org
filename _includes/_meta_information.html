@@ -1,0 +1,13 @@
+<div id="page-meta" class="t30">
+	<p>
+		{% assign author = site.data.authors[page.author] %}
+		{% if page.author %}
+			<span class="icon-edit pr20"> Written by <a href="{{ author.uri }}" target="_self"> {{ author.name }}</a></span>
+		{% endif %}
+		{% if page.the_date %}
+			<span class="icon-calendar pr20"> Last updated on {{ page.the_date }}</span>
+		{% endif %}
+	</p>
+</div>
+
+

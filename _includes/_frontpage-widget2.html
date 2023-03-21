@@ -1,0 +1,34 @@
+{% comment %}
+*
+*   First the include captures the url and image in a
+*   separate variable to make the code better readable.
+*
+*   These variables are widget_url and widget_image
+*
+{% endcomment %}
+
+{% capture widget_url %}{% if include.widget.url == NULL %}{% elsif include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ include.widget.url }}{% endif %}{% endcapture %}
+
+{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
+
+
+<div class="medium-{{ include.grid_column_size_attribute }} columns frontpage-widget" style="margin-bottom: 0px; margin-top: 15px;">
+	{% if include.widget.video %}
+		{{ include.widget.video }}
+	{% elsif widget_url == empty %}
+		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+	{% else %}
+		<a href="{{ widget_url }}">
+			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		</a>
+	{% endif %}
+
+	{% if include.widget.title != empty %}
+	<h2 class="font-size-h5 t10 b5">{{ include.widget.title }}</h2>
+	{% endif %}
+
+	{% if include.widget.text != empty %}
+	<p>{{ include.widget.text }}</p>
+	{% endif %}
+
+</div>
