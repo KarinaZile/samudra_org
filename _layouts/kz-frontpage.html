@@ -12,10 +12,15 @@ layout: compress
     {% endunless %}
 
     {% include _masthead.html %}
-    <div class="container">
-        <img src="/images/pattern.jpg" alt="" style="width:100%;">
-    </div> 
-    {{ content }}
+    <div class="front-page-header-background-image front-page-header-text-container">
+        <div class="row front-page-header-row">
+            <h1>{{ page.homepage_title }}</h1>
+            <p class="teaser front-page-header-teaser-text">{{ page.homepage_teaser }}</p>
+            <div class="front-page-header-content-text">
+                {{ content }}
+            </div>
+        </div>
+    </div>
 
     {% unless page.skip_boilerplate %}
     {% include _footer.html %}
