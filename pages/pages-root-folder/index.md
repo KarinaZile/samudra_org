@@ -10,5 +10,5 @@ header: no
 
 Similar to how a startup accelerator works with startups to turn them into successful companies, a system accelerator works with success-relevant stakeholders to turn a dysfunctional/nonexistent system into a functional one.
 
-<button href="/goals/" target="_self">See what goals we are working on</button>
-<button href="/goals/" target="_self">Learn more about our approach</button>
+<a href="/goals/" target="_self" class="button radius">See what goals we are working on</a>
+<a href="/goals/" target="_self" class="button radius">Learn more about our approach</a>
